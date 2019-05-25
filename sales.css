@@ -1,4 +1,4 @@
-#main{
+#main {
     display: flex;
     justify-content: space-around;
 }
@@ -8,12 +8,45 @@ body{
 }
 
 section{
-    margin: 75px;
+    margin: 100px;
 }
 
 .crd2{
     margin-top: 41px;
 }
+
+.card{
+  border-radius: 12px;
+  box-shadow: 5px 10px darkgray;
+}
+
+img{
+  border-radius: 12px;
+}
+
+.navbar{
+  opacity: 0.6;
+}
+
+.navbar-brand{
+  font-size: 2em;
+  padding: 0px;
+}
+
+.nav-link{
+  font-size: 25px;
+  color: black !important;
+}
+
+.nav-link:hover {
+  color: rgb(255,20,100) !important
+}
+.navbar-expand-lg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 @media only screen and (max-width: 992px) {
    .last-article {
